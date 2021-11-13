@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  background: radial-gradient(ellipse at top, #45a3d9, transparent),
+    radial-gradient(ellipse at bottom, #304982, transparent);
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.nav-link {
+  font-family: "Libre Caslon Text", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+}
+.nav-link:hover {
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+.nav-link {
+  color: #fffa82 !important;
+}
+
+.container-fluid {
+  background-color: rgba(13, 87, 85, 0.32);
+}
+nav {
+  padding-top: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
