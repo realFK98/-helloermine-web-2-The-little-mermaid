@@ -4,6 +4,7 @@ import chest from "./Img/สมบัติ.png";
 import rock from "./Img/หิน+ปะการัง.png";
 import bubble from "./Img/ฟอง.png";
 import popWater from "./Img/น้ำ.png";
+import fish from "./Img/ภาพปลากรอบ.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
@@ -28,15 +29,16 @@ const Text = styled.div`
   /* margin: 0 auto; */
 
   & h1 {
-    font-size: 14.5vh;
+    font-size: 18.5vh;
     color: #c3183a;
-    text-shadow: 10px 2px 15px #fffa82;
+    text-shadow: 2px 2px 3px #32356c;
   }
   & h3 {
     font-family: "Baskervville", serif;
-    font-size: 4.2vh;
+    font-size: 3.5vh;
     color: #fffa82;
-    text-shadow: 2px 2px 8px #000000;
+    text-shadow: 2px 2px 5px #000000;
+    font-style: italic;
   }
 `;
 const Pkl = styled.div`
@@ -130,11 +132,81 @@ const Pop = styled.div`
       opacity: 1;
     }
     80% {
-      top: 20%;
+      top: 2%;
       opacity: 1;
     }
     100% {
-      top: 20%;
+      top: 2%;
+      opacity: 0;
+    }
+  }
+`;
+const Fish = styled.div`
+  width: 100vw;
+  & .fish {
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+    width: 10vw;
+    transform: scaleX(-1);
+    animation: moveFish222 20s infinite;
+  }
+  width: 100vw;
+  & .fish1 {
+    position: absolute;
+    bottom: 40%;
+    left: 5%;
+    width: 10vw;
+    animation: moveFish111 26s infinite;
+  }
+  width: 100vw;
+  & .fish2 {
+    position: absolute;
+    bottom: 5%;
+    right: 30%;
+    width: 10vw;
+
+    animation: moveFish333 25s infinite;
+  }
+  @keyframes moveFish111 {
+    0% {
+      transform: translate(1800px);
+      opacity: 1;
+    }
+    90% {
+      transform: translate(-1000px);
+      opacity: 1;
+    }
+    100% {
+      transform: translate(-1000px);
+      opacity: 0;
+    }
+  }
+  @keyframes moveFish222 {
+    0% {
+      transform: translate(-1500px) scaleX(-1);
+      opacity: 1;
+    }
+    90% {
+      transform: translate(1500px) scaleX(-1);
+      opacity: 1;
+    }
+    100% {
+      transform: translate(1500px) scaleX(-1);
+      opacity: 0;
+    }
+  }
+  @keyframes moveFish333 {
+    0% {
+      transform: translate(-1500px) scaleX(-1);
+      opacity: 1;
+    }
+    90% {
+      transform: translate(1500px) scaleX(-1);
+      opacity: 1;
+    }
+    100% {
+      transform: translate(1500px) scaleX(-1);
       opacity: 0;
     }
   }
@@ -166,6 +238,11 @@ export default function Page1() {
         <img src={popWater} className="pop3" />
         <img src={popWater} className="pop4" />
       </Pop>
+      <Fish>
+        <img src={fish} className="fish" />
+        <img src={fish} className="fish1" />
+        <img src={fish} className="fish2" />
+      </Fish>
 
       <Text
         data-aos="fade-down"

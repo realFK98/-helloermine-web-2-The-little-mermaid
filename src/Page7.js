@@ -38,9 +38,9 @@ const Pic = styled.div`
     position: absolute;
   }
   & .chest {
-    width: 40vw;
-    top: 7%;
-    right: 5%;
+    width: 35vw;
+    top: 1%;
+    right: 8%;
   }
   & .rockpkl {
     width: 50vw;
@@ -61,7 +61,7 @@ const Pic = styled.div`
   }
   & .fish {
     width: 25vw;
-    top: 42%;
+    top: 40%;
     right: 37%;
     transform: scaleX(-1) rotate(20deg);
     animation: moveFish13 7s infinite;

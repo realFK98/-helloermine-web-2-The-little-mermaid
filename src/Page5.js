@@ -28,7 +28,7 @@ const MyDiv = styled.div`
   }
   & .para2 {
     padding: 2em;
-    margin-top: 30em;
+    margin-top: 35em;
     width: 50%;
     float: right;
     text-align: right;

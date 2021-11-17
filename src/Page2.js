@@ -22,14 +22,14 @@ const MyDiv = styled.div`
     color: #ffff;
   }
   & .para1 {
-    margin-top: 3em;
+    margin-top: 2em;
     padding: 2em;
     width: 50%;
     float: left;
   }
   & .para2 {
     padding: 2em;
-    margin-top: 9em;
+    margin: 8em 0;
     width: 60%;
     float: right;
     text-align: right;
@@ -52,7 +52,7 @@ const Pic = styled.div`
       transform: translate(-1100px) scaleX(-1);
     }
     100% {
-      transform: translate(1100px) scaleX(-1);
+      transform: translate(1500px) scaleX(-1);
     }
   }
 
@@ -77,21 +77,21 @@ const Pic = styled.div`
     position: absolute;
   }
   & .ariel1 {
-    width: 35vw;
+    width: 39vw;
     position: absolute;
     bottom: 0;
     left: 0;
   }
   & .rock {
-    width: 30vw;
+    width: 35vw;
     position: absolute;
-    top: 15%;
+    top: 22%;
     left: 20%;
   }
   & .fish1 {
     width: 8vw;
     position: absolute;
-    top: 30%;
+    top: 38%;
     left: 20%;
 
     animation: moveFish 20s ease 0s infinite normal none;
@@ -107,15 +107,15 @@ const Pic = styled.div`
   & .fish-under {
     width: 10vw;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     right: 23%;
     animation: moveFish3 5s infinite;
   }
   & .rock-under {
-    width: 15vw;
+    width: 12vw;
     position: absolute;
     bottom: 0;
-    right: 10%;
+    right: 18%;
   }
 `;
 
