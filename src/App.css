@@ -1,9 +1,9 @@
 .brand {
-  padding-left: 1em;
+  padding-left: 1%;
 }
 .left {
   margin-left: auto;
-  margin-right: 1em;
+  margin-right: 3%;
 }
 .nav-between {
   margin: 0 2em;
@@ -11,21 +11,23 @@
   font-size: 25px;
   font-weight: bold;
   transition: transform 0.3s !important;
+  text-align: center;
 }
 .nav-between:hover {
   opacity: 1;
-  transform: scale(1.2);
+  transform: scale(1.1);
   text-shadow: 2px 2px 5px #ffffff;
 }
 .navbar {
   padding: 0 !important;
   height: 100% !important;
-  /* background-color: rgba(50, 53, 108, 0.8) !important; */
-  background: linear-gradient(
+  background-color: rgba(50, 53, 108, 0.8) !important;
+  box-shadow: 0px 0px 10px black;
+  /* background: linear-gradient(
     0deg,
-    rgba(50, 53, 108, 0.7) 0%,
-    rgba(87, 152, 180, 0.7) 100%
-  );
+    rgba(50, 53, 108, 1) 0%,
+    rgba(87, 152, 180, 1) 100%
+  ); */
   transition: 0.3s ease-out !important;
 }
 .brand {
@@ -47,9 +49,9 @@
   padding: 0 5em;
 }
 .scroll {
-  height: 70px !important;
+  height: 30% !important;
 }
 .logo {
-  width: 40% !important;
+  width: 30% !important;
   transition: 0.3s ease-out !important;
 }

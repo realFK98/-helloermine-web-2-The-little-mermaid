@@ -215,18 +215,24 @@ export default function Page1() {
   }, []);
   return (
     <MyDiv>
+      <Fish>
+        <img src={fish} className="fish" />
+        <img src={fish} className="fish1" />
+        <img src={fish} className="fish2" />
+      </Fish>
       <Pop>
         <img src={popWater} className="pop1" />
         <img src={popWater} className="pop2" />
         <img src={popWater} className="pop3" />
         <img src={popWater} className="pop4" />
       </Pop>
-      <Fish>
-        <img src={fish} className="fish" />
-        <img src={fish} className="fish1" />
-        <img src={fish} className="fish2" />
-      </Fish>
-
+      <Pkl>
+        <img src={pakarang} className="pakarang" />
+        <img src={pakarang} className="pakarang2" />
+        <img src={pakarang} className="pakarang3" />
+        <img src={pakarang} className="pakarang4" />
+        <img src={bubble} className="bubble" />
+      </Pkl>
       <Text
         data-aos="fade-down"
         data-aos-easing="linear"
@@ -239,13 +245,6 @@ export default function Page1() {
           story
         </h3>
       </Text>
-      <Pkl>
-        <img src={pakarang} className="pakarang" />
-        <img src={pakarang} className="pakarang2" />
-        <img src={pakarang} className="pakarang3" />
-        <img src={pakarang} className="pakarang4" />
-        <img src={bubble} className="bubble" />
-      </Pkl>
 
       <Chest>
         <img src={chest} className="chest1" />
