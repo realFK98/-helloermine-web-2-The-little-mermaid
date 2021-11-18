@@ -157,7 +157,7 @@ export default function Page2() {
           data-aos="fade-right"
           data-aos-offset="50"
           data-aos-easing="ease-in-sine"
-          data-aos-duration="800"
+          data-aos-duration="500"
         />
         <img src={rockunder} alt="rock" className="rock-under" />
         <img src={fishyellow} alt="rock" className="fish-under" />
