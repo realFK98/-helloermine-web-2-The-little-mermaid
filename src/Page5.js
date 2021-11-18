@@ -159,7 +159,7 @@ export default function Page2() {
 
         <img
           data-aos="fade-right"
-          data-aos-offset="400"
+          data-aos-offset="100"
           data-aos-easing="ease-in-sine"
           data-aos-duration="800"
           src={ariel}

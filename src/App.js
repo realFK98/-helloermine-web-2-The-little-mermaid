@@ -10,12 +10,12 @@ import Page8 from "./Page8";
 import Footer from "./footer";
 import "./App.css";
 import { useEffect, useState } from "react";
-
 import { Container, Navbar, Nav } from "react-bootstrap";
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
+    document.title = "TheLittleMermaid";
     const handleScroll = () => {
       if (window.scrollY > 100) {
         setScrolled(true);

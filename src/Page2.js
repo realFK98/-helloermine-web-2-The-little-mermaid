@@ -132,7 +132,7 @@ export default function Page2() {
           alt="ariel"
           className="ariel"
           data-aos="fade-left"
-          data-aos-offset="400"
+          data-aos-offset="200"
           data-aos-easing="ease-in-sine"
           data-aos-duration="800"
         />

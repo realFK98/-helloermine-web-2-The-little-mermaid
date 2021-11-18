@@ -141,7 +141,7 @@ export default function Footer() {
         Member
       </h1>
       <Member data-aos="fade-down" data-aos-duration="1000">
-        <a href="https://www.facebook.com/KuPhumizz/">
+        <a href="https://www.instagram.com/zzimuhp.siri/">
           <Person>
             <img src={poom} alt="poom" />
             <h3>Poom</h3>
