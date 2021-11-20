@@ -28,6 +28,7 @@ const Text = styled.div`
   top: 20vh;
 
   & h1 {
+    font-family: "CaslonCPswash", sans-serif;
     font-size: 9vw;
     color: #c3183a;
     text-shadow: 2px 2px 3px #32356c;

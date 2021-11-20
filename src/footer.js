@@ -21,6 +21,7 @@ const MyDiv = styled.div`
   margin-top: 15%;
 
   & h1 {
+    font-family: "CaslonCPswash", sans-serif;
     padding: 10% 0;
     text-align: center;
     font-size: 8vw;
