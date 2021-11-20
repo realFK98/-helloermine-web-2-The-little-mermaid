@@ -1,7 +1,9 @@
-@import url("http://fonts.cdnfonts.com/css/casloncp");
+/* @import url("http://fonts.cdnfonts.com/css/casloncp"); */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baskervville&family=Prompt&display=swap");
 h1 {
-  font-family: "CaslonCPswash", sans-serif;
+  font-family: "Pacifico", cursive;
+  /* font-family: "CaslonCPswash", sans-serif; */
 }
 p {
   font-family: "Baskervville", serif;
